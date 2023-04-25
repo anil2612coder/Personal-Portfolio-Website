@@ -77,4 +77,24 @@
     transform: scale(1.4);
     left: 28%;
   }
+  .i-right >:nth-child(4){
+    transform: scale(0.6);
+    top: -22%;
+    left: -12%;
+  padding: 0;
+  border-radius: 50%;
+  }
+
+  .blur{
+    position: absolute;
+    width: 22rem;
+    height: 14rem;
+    border-radius: 50%;
+    background: #edd0ff;
+    filter: blur(72px);
+    top: -18%;
+    left: 45%;
+    z-index: -1;
+
+  }
  

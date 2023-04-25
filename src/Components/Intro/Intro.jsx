@@ -34,12 +34,20 @@ const Intro = () => {
         <img src={Vector1} alt="" />
         <img src={Vector2} alt="" />
         <img src={boy} alt="" />
-        <div style={{ top: "-4%", left: "55%" }}>
+        <img src={glassesimoji} alt="" />
+        <div style={{ top: "-4%", left: "60%" }}>
           <FloatingDiv image={crown} txt1="Web" txt2="Developer" />
         </div>
         <div style={{ top: "70%", left: "-10%" }}>
           <FloatingDiv image={thumbup} txt1="Find" txt2="Yourself" />
         </div>
+        {/* blur div */}
+
+        <div className="blur" style={{ background: "rgb(238 210 255)" }}></div>
+        <div
+          className="blur"
+          style={{ background: "#C1F5FF", top: "55%", left: "-25%" }}
+        ></div>
       </div>
     </div>
   );
