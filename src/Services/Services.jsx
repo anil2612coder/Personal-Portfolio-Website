@@ -12,9 +12,8 @@ const Services = () => {
         <span>My Awesome</span>
         <span>Services</span>
         <span>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elitsijdgfgsdighfj
-          kjsgdgf <br />
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo.
+          Now I am MERN stack Developer.
+          <br /> <br /> I give servises to companies in developing website.
         </span>
         <button className="button s-button">Download CV</button>
       </div>

@@ -1,0 +1,50 @@
+.portfolio{
+    display: flex;
+    flex-direction: column;
+    width: 90vw;
+    justify-content: center;
+    align-items: center;
+    /* border: 3px solid red; */
+    
+}
+
+.recentProject{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.recentProject>:nth-child(1){
+    font-size: 2rem;
+    font-family: 'Poltawski Nowy', serif; 
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+.recentProject>:nth-child(2){
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: var(--orange);
+  margin: 0.5rem 0 2rem 0;
+}
+.project{
+    display: flex;
+    gap: 2rem;
+    
+}
+.project>div>div{
+    margin: 1rem 0 0.5rem 0;
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.project>div>a>img{
+    width: 18rem;
+    height: 10rem;
+    border: 0.04rem solid black ;
+    box-shadow: var(--boxShadow );
+    border-radius: 1rem;
+}
+.project>div>a>img:hover{
+   transform: scale(1.2);
+}

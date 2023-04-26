@@ -19,8 +19,8 @@ const Intro = () => {
           <span>Hi! I Am </span>
           <span>Anil Kumar</span>
           <span>
-            Frontend Developer With High level of experience in web designing
-            and developement, producting the Qulity work
+            Full Stack Developer With High level of experience in web
+            developement, producting the Qulity work
           </span>
         </div>
         <button className="i-button button">Hire me</button>
@@ -36,10 +36,10 @@ const Intro = () => {
         <img src={boy} alt="" />
         <img src={glassesimoji} alt="" />
         <div style={{ top: "-4%", left: "60%" }}>
-          <FloatingDiv image={crown} txt1="Web" txt2="Developer" />
+          <FloatingDiv image={crown} txt1="Full Stack" txt2="Developer" />
         </div>
         <div style={{ top: "70%", left: "-10%" }}>
-          <FloatingDiv image={thumbup} txt1="Find" txt2="Yourself" />
+          <FloatingDiv image={thumbup} txt1="Competitive" txt2="Coder" />
         </div>
         {/* blur div */}
 
