@@ -63,3 +63,11 @@ text-align: center;
 line-height: 1.4rem;
    border-radius: 1rem;
 }
+
+.contactNo{
+    margin: 1rem 0 0 1rem;
+    padding: 0.5rem;
+    color: bold;
+    border: 0.1rem solid var(--orange);
+    border-radius: 1rem;
+}
