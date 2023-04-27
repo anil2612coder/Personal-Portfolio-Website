@@ -1,9 +1,11 @@
 import React from "react";
 import "./Skills.css";
+import { motion } from "framer-motion";
 
 const Skills = () => {
+  const transition = { duration: 2, type: "spring" };
   return (
-    <div className="skills">
+    <div className="skills" id="skills">
       <div>
         <span>Skills-</span>
         <span className="s-percentage"></span>

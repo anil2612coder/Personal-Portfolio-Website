@@ -1,24 +1,41 @@
 import React from "react";
 import "./Navbar.css";
-
+import { Link } from "react-scroll";
 const Navbar = () => {
   return (
     <div className="n-wrapper">
       <div className="n-left">
         <div className="n-name">Anil</div>
-        <span>Toggle</span>
       </div>
       <div className="n-right">
         <div className="n-list">
-          <ul>
-            <li>Home</li>
-            <li>Services</li>
-            <li>Experience</li>
-            <li>Portfolio</li>
-            <li>Testimonials</li>
+          <ul style={{ listStyleType: "none" }}>
+            <li>
+              <Link activeClass="active" to="Navbar" spy={true} smooth={true}>
+                Home
+              </Link>
+            </li>
+            <li>
+              <Link to="services" spy={true} smooth={true}>
+                Serivces
+              </Link>
+            </li>
+            <li>
+              <Link to="portfolio" spy={true} smooth={true}>
+                Portfolio
+              </Link>
+            </li>
+
+            <li>
+              <Link to="skills" spy={true} smooth={true}>
+                Skills
+              </Link>
+            </li>
           </ul>
         </div>
-        <button className="button n-button">Contact </button>
+        <Link to="contact" spy={true} smooth={true}>
+          <button className="button n-button">Contact</button>
+        </Link>
       </div>
     </div>
   );

@@ -6,6 +6,7 @@
       /* scroll */
   padding-top: 3rem;
   font-family: 'Roboto', sans-serif;
+  position: relative;
 }
 
 .c-right{
@@ -36,6 +37,7 @@
 
 textarea{
     height: 4rem!important;
+    font-family: 'Roboto', sans-serif;
 }
 .s-blur1{
     top: 14rem;
@@ -48,4 +50,16 @@ textarea{
 .m-button{
     width: 6rem;
     margin: 0rem 0 0 15rem;
+}
+.t-submit{
+    padding: 0.5rem;
+    
+    border: 0.2rem solid var(--black);
+    /* background-color:rgb(224, 233, 199); */
+    color: var(--orange);
+    font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+text-align: center;
+line-height: 1.4rem;
+   border-radius: 1rem;
 }

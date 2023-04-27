@@ -10,8 +10,10 @@ import glassesimoji from "../../img/glassesimoji.png";
 import thumbup from "../../img/thumbup.png";
 import crown from "../../img/crown.png";
 import FloatingDiv from "../FloatingDiv/FloatingDiv";
+import { motion } from "framer-motion";
 
 const Intro = () => {
+  const transition = { duration: 2, type: "spring" };
   return (
     <div className="Intro">
       <div className="i-left">
@@ -34,13 +36,29 @@ const Intro = () => {
         <img src={Vector1} alt="" />
         <img src={Vector2} alt="" />
         <img src={boy} alt="" />
-        <img src={glassesimoji} alt="" />
-        <div style={{ top: "-4%", left: "60%" }}>
+        <motion.img
+          initial={{ left: "-70%" }}
+          whileInView={{ left: "-50%" }}
+          transition={transition}
+          src={glassesimoji}
+          alt=""
+        />
+        <motion.div
+          initial={{ left: "80%" }}
+          whileInView={{ left: "60%" }}
+          transition={transition}
+          style={{ top: "-4%", left: "60%" }}
+        >
           <FloatingDiv image={crown} txt1="Full Stack" txt2="Developer" />
-        </div>
-        <div style={{ top: "70%", left: "-10%" }}>
+        </motion.div>
+        <motion.div
+          initial={{ left: "-20%" }}
+          whileInView={{ left: "-10%" }}
+          transition={transition}
+          style={{ top: "70%", left: "-10%" }}
+        >
           <FloatingDiv image={thumbup} txt1="Competitive" txt2="Coder" />
-        </div>
+        </motion.div>
         {/* blur div */}
 
         <div className="blur" style={{ background: "rgb(238 210 255)" }}></div>

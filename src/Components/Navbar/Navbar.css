@@ -15,8 +15,9 @@
   }
   
   .n-name {
-    font-size: 1.3rem;
+    font-size: 2rem;
     font-weight: bold;
+    padding-top: 1rem;
     /* font-family: 'Poltawski Nowy', serif; */
   }
   .n-right {
@@ -31,7 +32,7 @@
   
   .n-list > ul {
     display: flex;
-    gap: 2rem;
+    gap: 3rem;
     margin-right: 4rem;
     list-style-type: none;
     font-family: 'Roboto', sans-serif;

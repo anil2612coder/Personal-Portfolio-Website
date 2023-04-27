@@ -6,7 +6,7 @@ import portfolio from "../../img/Portfolio.jpg";
 
 const Portfolio = () => {
   return (
-    <div className="portfolio">
+    <div className="portfolio" id="portfolio">
       <div className="recentProject">
         <span>Recent Project</span>
         <span>Portfolio</span>
